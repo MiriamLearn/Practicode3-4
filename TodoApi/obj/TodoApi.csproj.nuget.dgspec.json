@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\fullstack\\TodoApi\\TodoApi.csproj": {}
+    "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\fullstack\\TodoApi\\TodoApi.csproj": {
+    "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\fullstack\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\fullstack\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\fullstack\\TodoApi\\obj\\",
+        "outputPath": "C:\\לימודי תכנות שנה ב תשפה\\פרקטיקוד\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
