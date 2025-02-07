@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40EBF02A-BD02-420E-A3F3-05307EFA1DFF}|TodoApi.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\todolist-2-projects\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40EBF02A-BD02-420E-A3F3-05307EFA1DFF}|TodoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40EBF02A-BD02-420E-A3F3-05307EFA1DFF}|TodoApi.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\todolist-2-projects\\todoapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{40EBF02A-BD02-420E-A3F3-05307EFA1DFF}|TodoApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -18,24 +22,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TodoApi",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T00:20:44.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoApi.csproj",
               "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\TodoApi.csproj",
               "RelativeDocumentMoniker": "TodoApi.csproj",
               "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\TodoApi.csproj",
               "RelativeToolTip": "TodoApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-06T23:55:25.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T23:55:25.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1 \u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\practicode 3-4\\ToDoList-2-projects\\TodoApi\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
