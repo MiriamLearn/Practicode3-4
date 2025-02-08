@@ -16,7 +16,7 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     try{
-      const result = await axios.get(`/items`)    
+      const result = await axios.get(`/items`)  
       return result.data;
     }catch (error) {
       console.error('Failed to fetch tasks:', error);

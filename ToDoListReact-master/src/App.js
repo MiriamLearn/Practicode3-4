@@ -6,8 +6,17 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   async function getTodos() {
-    const todos = await service.getTasks();
-    setTodos(todos);
+    // const todos = await service.getTasks();
+    // setTodos(todos);
+    // כאן שיניתי
+    try {
+      const todos = await service.getTasks();
+      console.log("📌 Data from API:", todos); // בדיקה בקונסול
+      setTodos(Array.isArray(todos) ? todos : []); // אם הנתונים לא מערך, הגדר רשימה ריקה
+    } catch (error) {
+      console.error("❌ Error fetching tasks:", error);
+      setTodos([]); // כדי למנוע שגיאות, נגדיר רשימה ריקה במקרה של שגיאה
+    }
   }
 
   async function createTodo(e) {
@@ -41,7 +50,7 @@ function App() {
       </header>
       <section className="main" style={{ display: "block" }}>
         <ul className="todo-list">
-          {todos.map(todo => {
+          {(Array.isArray(todos) ? todos : []).map(todo => {
             return (
               <li className={todo.isComplete ? "completed" : ""} key={todo.id}>
                 <div className="view">
