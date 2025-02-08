@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 // const apiUrl = "http://localhost:5187"
-const apiUrl = process.env.REACT_APP_API_URL;
-axios.defaults.baseURL = apiUrl; 
+
+axios.defaults.baseURL = process.env.REACT_APP_API_URL; 
 
 axios.interceptors.response.use(
-  response => response,  // אם התשובה תקינה, נמשיך כמו שהיא
-  error => {
+  (response) => response,  // אם התשובה תקינה, נמשיך כמו שהיא
+  (error) => {
     // כאן נוכל להוסיף את הקוד לטפל בשגיאות
-    console.error('Error response:', error.response);
+    console.error('Error response:', error.response? error.response.data : error.message);
     return Promise.reject(error);  // מחזיר את השגיאה למעלה כדי שהיישום יוכל לטפל בה
   }
 );
@@ -16,7 +16,7 @@ axios.interceptors.response.use(
 export default {
   getTasks: async () => {
     try{
-      const result = await axios.get(`${apiUrl}/items`)    
+      const result = await axios.get(`/items`)    
       return result.data;
     }catch (error) {
       console.error('Failed to fetch tasks:', error);
