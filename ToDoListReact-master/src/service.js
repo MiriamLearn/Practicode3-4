@@ -1,9 +1,8 @@
 import axios from 'axios';
 
 // const apiUrl = "http://localhost:5187"
-
 axios.defaults.baseURL = process.env.REACT_APP_API_URL; 
-console.log("📌 API Base URL:", axios.defaults.baseURL);
+
 axios.interceptors.response.use(
   (response) => response,  // אם התשובה תקינה, נמשיך כמו שהיא
   (error) => {

@@ -4,17 +4,14 @@ using Microsoft.OpenApi.Models;
 using TodoApi;
 
 var builder = WebApplication.CreateBuilder(args);
-// הוספת DbContext ל-Services
-// builder.Services.AddDbContext<ToDoDbContext>(options =>
-//     options.UseMySql("server=localhost;user=root;password=aA1795aA;database=my_schema", 
-//         ServerVersion.AutoDetect("server=localhost;user=root;password=aA1795aA;database=my_schema")));
+
 builder.Services.AddEndpointsApiExplorer();
 var connectionString = builder.Configuration.GetConnectionString("ToDoDB");
 builder.Services.AddDbContext<ToDoDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 
-// builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
